@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(./Fondo.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: #00000300;
+	color: #010000;
+	padding: 20px;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #b5b2b2;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+section {
+	flex-basis: 70%;
+}
+
+article {
+	background-color: #ffffff00;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgb(13, 13, 13);
+}
+
+article img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+article p {
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+footer{
+	color: #000500;
+	left: 0;
+	bottom:0;
+	padding: 10%;
+	text-align: center;
+	clear: both;
+	margin-top:100px;
+    height:200px;
+}
